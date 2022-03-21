@@ -93,12 +93,7 @@
                     </label>
                     <label class="block text-sm font-semibold">
                         <span class="text-gray-700 dark:text-gray-400">Service</span>
-                        <select  name="service" class="block w-full mt-1 mb-2 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-teal-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray p-2 rounded border">
-                            <option selected value="{{ $data->service }}">{{ $data->service }}</option>
-                            @foreach ($service as $service)
-                                <option value="{{ $service->nom }}">{{ $service->nom }}</option>                       
-                            @endforeach
-                        </select>
+                        <input required name="service" value="{{ $data->service }}" type="text" placeholder="Service" class="block w-full mt-1 mb-2 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-teal-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"/>
                     </label>
                     <label class="block text-sm font-semibold">
                         <span class="text-gray-700 dark:text-gray-400">Prix</span>

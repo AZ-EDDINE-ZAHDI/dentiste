@@ -30,11 +30,5 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::post('modifierrdvs/{id}',[RdvController::class,'update']);
 
     Route::get('rdvs/supp/{id}',[AvanceController::class,'destroy']);
-
-    Route::get('services/create',[ServiceController::class,'create']);
-    Route::post('services/create',[ServiceController::class,'store'])->name('services.store');
-    Route::get('services/edit/{id}',[ServiceController::class,'edit']);
-    Route::get('services/supprimer/{id}',[ServiceController::class,'destroy']);
-    Route::post('modifierservices/{id}',[ServiceController::class,'update']);
     
 });
