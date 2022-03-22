@@ -127,7 +127,6 @@
             @endforeach
         </tbody>
         </table>
-
     </div>
     </div>
     <!-- End table rdvs -->

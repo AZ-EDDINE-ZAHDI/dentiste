@@ -15,7 +15,7 @@
     <div class="w-full flex flex-wrap">
 
         <!-- Login Section -->
-        <div class="w-full md:w-1/2">
+        <div class="w-full">
 
             <div class="min-h-full flex items-center justify-center py-8 px-8 sm:px-6 lg:px-8" style="padding: 30px 100px 0px 100px">
                 <div class="max-w-md w-full space-y-8">
@@ -67,10 +67,6 @@
             </div>
         </div>
 
-        <!-- Image Section -->
-        <div class="w-1/2">
-            <img class="object-cover w-full h-screen hidden md:block" src="images/dentist.jpg">
-        </div>
     </div>
 
 </body>

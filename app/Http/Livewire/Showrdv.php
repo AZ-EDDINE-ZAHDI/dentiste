@@ -19,7 +19,7 @@ class Showrdv extends Component
 
     public function render()
     {
-        $rdv=Rdv::orderBy('created_at','DESC')->get();
+        $rdv=Rdv::orderBy('created_at','DESC')->paginate(10);
         $avances=Avance::all();
         return view('livewire.showrdv',compact('rdv', $rdv,'avances', $avances));
     }

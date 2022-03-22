@@ -3,7 +3,6 @@
 namespace App\Http\Livewire;
 
 use App\Models\Rdv;
-use App\Models\Service;
 use Livewire\Component;
 
 class Addrdv extends Component
